@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Overview dashboard for blog articles and insights." />
+    <title>Overzicht</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="sidebar__header">
+        <span class="info-icon">ⓘ</span>
+        <span class="sidebar__title">Overzicht</span>
+      </div>
+      <nav class="sidebar__nav">
+        <a href="overview.html" class="nav-item active">
+          <span class="nav-icon">📊</span>
+          Overzicht
+        </a>
+        <a href="index.html" class="nav-item">
+          <span class="nav-icon">📝</span>
+          Blog
+        </a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <div class="container">
+        <h1 class="page-title">Overzicht</h1>
+
+        <section class="overview-grid">
+          <article class="summary-card">
+            <p class="summary-label">Totaal Artikels</p>
+            <h2>7</h2>
+            <p>Een groeiende collectie over cloud, DevOps, AI en events.</p>
+          </article>
+          <article class="summary-card">
+            <p class="summary-label">Categorieen</p>
+            <h2>6</h2>
+            <p>Hackathon, architecture, open-source, AI ecosystem en meer.</p>
+          </article>
+          <article class="summary-card">
+            <p class="summary-label">Gem. Leestijd</p>
+            <h2>7 min</h2>
+            <p>Korte, praktische stukken die snel te verwerken zijn.</p>
+          </article>
+        </section>
+
+        <section class="highlights-panel">
+          <div class="highlights-head">
+            <h2>Recent toegevoegd</h2>
+            <a class="panel-link" href="index.html">Bekijk alle artikels</a>
+          </div>
+          <div class="mini-list">
+            <a href="blogs/blog1.html" class="mini-item">
+              <strong>Blog 1</strong>
+              <span>Blog post</span>
+            </a>
+            <a href="blogs/blog2.html" class="mini-item">
+              <strong>Blog 2</strong>
+              <span>Blog post</span>
+            </a>
+            <a href="blogs/blog3.html" class="mini-item">
+              <strong>Blog 3</strong>
+              <span>Blog post</span>
+            </a>
+            <a href="blogs/blog4.html" class="mini-item">
+              <strong>Blog 4</strong>
+              <span>Blog post</span>
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
