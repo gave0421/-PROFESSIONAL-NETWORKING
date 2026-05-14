@@ -114,6 +114,16 @@ h1 {
   line-height: 1.75;
 }
 
+.inline-photo {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+}
+
 .content ul {
   padding-left: 1.2rem;
 }
