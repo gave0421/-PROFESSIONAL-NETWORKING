@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Blog articles and insights" />
-    <title>Blogartikel</title>
+    <title>Gaël Verstrepen — Blog</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,17 +18,21 @@
   <body>
     <aside class="sidebar">
       <div class="sidebar__header">
-        <span class="info-icon">ⓘ</span>
-        <span class="sidebar__title">Overzicht</span>
+        <span class="info-icon">GV</span>
+        <span class="sidebar__title">Gaël Verstrepen</span>
       </div>
       <nav class="sidebar__nav">
-        <a href="overview.html" class="nav-item">
-          <span class="nav-icon">📊</span>
-          Overzicht
-        </a>
         <a href="index.html" class="nav-item active">
           <span class="nav-icon">📝</span>
           Blog
+        </a>
+        <a href="about.html" class="nav-item">
+          <span class="nav-icon">👤</span>
+          About
+        </a>
+        <a href="cv.html" class="nav-item">
+          <span class="nav-icon">📄</span>
+          CV
         </a>
       </nav>
     </aside>
@@ -39,7 +44,7 @@
         <div class="articles-grid">
           <a class="article-card" href="blogs/blog1.html">
             <div class="article-image">
-              <img
+              <img loading="lazy"
                 src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop"
                 alt="Code op een scherm"
               />
@@ -47,13 +52,66 @@
               <div class="article-content">
               <h3 class="article-title">Hoe deze website tot stand kwam</h3>
               <p class="article-category">Website stack</p>
-              <span class="article-number">7</span>
+              <span class="article-number">1</span>
+            </div>
+          </a>
+
+          <a class="article-card" href="blogs/blog5.html">
+            <div class="article-image">
+              <img loading="lazy"
+                src="images/1764101087093.jpg"
+                alt="Tech &amp; Meet on IPv6 at Howest"
+              />
+            </div>
+              <div class="article-content">
+              <h3 class="article-title">Transitioning to IPv6</h3>
+              <p class="article-category">Tech &amp; Meet</p>
+              <span class="article-number">2</span>
+            </div>
+          </a>
+
+          <a class="article-card" href="blogs/blog6.html">
+            <div class="article-image">
+              <img loading="lazy"
+                src="images/1766221407807.jpg"
+                alt="Cybersecurity presentation in a lecture hall"
+              />
+            </div>
+              <div class="article-content">
+              <h3 class="article-title">The Birth of NATO’s Cyber Defence</h3>
+              <p class="article-category">Tech &amp; Meet</p>
+              <span class="article-number">3</span>
+            </div>
+          </a>
+
+          <a class="article-card" href="blogs/blog7.html">
+            <div class="article-image">
+              <img loading="lazy"
+                src="images/1766250771230.jpg"
+                alt="DeepSeek presentatie slide"
+              />
+            </div>
+              <div class="article-content">
+              <h3 class="article-title">DeepSeek en China’s AI-ecosysteem</h3>
+              <p class="article-category">Tech &amp; Meet</p>
+              <span class="article-number">4</span>
+            </div>
+          </a>
+
+          <a class="article-card" href="blogs/blog3.html">
+            <div class="article-image">
+              <img loading="lazy" src="images/flutter.jpeg" alt="Flutter Tech &amp; Meet bij Howest" />
+            </div>
+              <div class="article-content">
+              <h3 class="article-title">Cross-Platform Development with Flutter</h3>
+              <p class="article-category">Tech &amp; Meet</p>
+              <span class="article-number">5</span>
             </div>
           </a>
 
           <a class="article-card" href="blogs/blog2.html">
             <div class="article-image">
-              <img
+              <img loading="lazy"
                 src="images/lovable-logo-bg-light (1).webp"
                 alt="Lovable logo"
               />
@@ -65,48 +123,22 @@
             </div>
           </a>
 
-          <a class="article-card" href="blogs/blog5.html">
+          <a class="article-card" href="blogs/podcast.html">
             <div class="article-image">
-              <img
-                src="images/1764101087093.jpg"
-                alt="Tech & Meet on IPv6 at Howest"
-              />
+              <img loading="lazy" src="images/podcast-cover.svg" alt="Cover van de podcastaflevering" />
             </div>
               <div class="article-content">
-              <h3 class="article-title">Transitioning to IPv6</h3>
-              <p class="article-category">Tech & Meet</p>
-              <span class="article-number">1</span>
-            </div>
-          </a>
-
-          <a class="article-card" href="blogs/blog6.html">
-            <div class="article-image">
-              <img
-                src="images/1766221407807.jpg"
-                alt="Cybersecurity presentation in a lecture hall"
-              />
-            </div>
-              <div class="article-content">
-              <h3 class="article-title">The Birth of NATO’s Cyber Defence</h3>
-              <p class="article-category">Tech & Meet</p>
-              <span class="article-number">2</span>
-            </div>
-          </a>
-
-          <a class="article-card" href="blogs/blog7.html">
-            <div class="article-image">
-              <img
-                src="images/1766250771230.jpg"
-                alt="DeepSeek presentatie slide"
-              />
-            </div>
-              <div class="article-content">
-              <h3 class="article-title">DeepSeek en China’s AI-ecosysteem</h3>
-              <p class="article-category">Tech & Meet</p>
-              <span class="article-number">1</span>
+              <h3 class="article-title">Podcast met Wouter Quisenaerts</h3>
+              <p class="article-category">Podcast</p>
+              <span class="article-number">7</span>
             </div>
           </a>
         </div>
+        <footer class="site-footer">
+          © 2026 Gaël Verstrepen ·
+          <a href="https://github.com/gave0421" target="_blank" rel="noopener">GitHub</a> ·
+          <a href="https://www.linkedin.com/in/ga%C3%ABl-verstrepen-73a6a1340" target="_blank" rel="noopener">LinkedIn</a>
+        </footer>
       </div>
     </main>
   </body>

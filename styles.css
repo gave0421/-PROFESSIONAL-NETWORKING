@@ -294,6 +294,102 @@ body {
   outline: none;
 }
 
+/* Footer */
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.site-footer a {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--accent);
+}
+
+/* Placeholders (verwijder zodra je echte content/afbeeldingen toevoegt) */
+.photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.4rem;
+  padding: 1rem;
+  border: 2px dashed var(--accent);
+  border-radius: 0.75rem;
+  color: var(--text-muted);
+  background: rgba(255, 107, 157, 0.06);
+  font-size: 0.9rem;
+}
+
+.photo-placeholder--card {
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px dashed var(--accent);
+}
+
+/* About-pagina */
+.about-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  background: var(--card-bg);
+  border: 2px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-photo {
+  flex: 0 0 200px;
+  max-width: 200px;
+}
+
+.about-photo img {
+  width: 100%;
+  border-radius: 0.75rem;
+  display: block;
+}
+
+.about-intro {
+  flex: 1 1 280px;
+}
+
+.about-intro h2 {
+  margin: 0 0 0.25rem;
+}
+
+.about-role {
+  margin: 0 0 0.75rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.about-section {
+  background: var(--card-bg);
+  border: 2px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.about-section h2 {
+  margin-top: 0;
+}
+
+.about-section p,
+.about-section li {
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
 @media (max-width: 1024px) {
   .overview-grid {
     grid-template-columns: 1fr;
